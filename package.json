@@ -1,0 +1,13 @@
+{
+  "name": "your-app",
+  "version": "1.4.0",
+  "main": "app/main.js",
+  "devDependencies": {
+    "electron-packager": "^8.5.2",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./app your-app --all --out ./OutApp --version 1.4.0 --overwrite --icon=./app/img/icon.ico"
+  }
+}
