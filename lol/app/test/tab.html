@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap tabs选项卡 鼠标经过效果</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <ul class="nav-tabs nav" id="tabs1">
+                <li class="active"><a href="#tabs-1">关于我们 </a></li>
+                <li><a href="#tabs-2">资讯中心</a></li>
+                <li><a href="#tabs-3">联系我们 </a></li>
+            </ul>
+            <div class="tab-content" style="height: 80px; padding-top: 0.6em; border-bottom: dashed #ddd 2px;">
+                <div class="tab-pane active" id="tabs-1">
+                    <p>***工程有限公司是一家专业的装修服务机构<br/> 省心，省力，省时更省钱
+                        <br/> 轻松装修时代。 </p>
+                </div>
+                <div class="tab-pane" id="tabs-2">
+                    <ul>
+                        <li><a href="#" target="_blank">室内家具摆放 切忌四种摆放方法</a></li>
+                        <li><a href="#" target="_blank">成就家居客厅好风水需要注意的六</a></li>
+                        <li><a href="#" target="_blank">九款创意背景墙设计</a></li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="tabs-3">
+                    <p>电话：13800000000<br/> QQ：17000000
+                        <br/> 地址：厦门**** </p>
+                </div>
+            </div>
+        </div>
+        <div style="height: 2em;"></div>
+        <!--第二次调用-->
+        <div class="row">
+            <ul class="nav-tabs nav" id="tabs2">
+                <li class="active"><a href="#tabs-4">客厅 </a></li>
+                <li><a href="#tabs-5">房间</a></li>
+                <li><a href="#tabs-6">厨房</a></li>
+            </ul>
+            <div class="tab-content" style="height: 80px; padding-top: 0.6em; border-bottom: dashed #ddd 2px;">
+                <div class="tab-pane active" id="tabs-4">
+                    <p>客厅欧式装修方案大全</p>
+                </div>
+                <div class="tab-pane" id="tabs-5">
+                    <p>房间海洋风装修方案</p>
+                </div>
+                <div class="tab-pane" id="tabs-6">
+                    <p>厨房高大上装修案例展示</p>
+                </div>
+            </div>
+        </div>
+
+        <!--第二次调用结束-->
+
+        <script>
+            $(function () {
+                $("#tabs1 a").mousemove(function (e) {
+                    $(this).tab('show');
+                });
+                $("#tabs2 a").mousemove(function (e) {
+                    $(this).tab('show');
+                });
+                $("#tabs3 a").mousemove(function (e) {
+                    $(this).tab('show');
+                });
+                $("#tabs4 a").mousemove(function (e) {
+                    $(this).tab('show');
+                });
+                $("#tabs5 a").mousemove(function (e) {
+                    $(this).tab('show');
+                });
+                $("#tabs6 a").mousemove(function (e) {
+                    $(this).tab('show');
+                });
+            });
+        </script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,588 @@
+body{
+    background-color: #000000;
+}
+.main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 800px;
+    background-color: #000000;
+    /*background-image: url(../img/lol.png);*/
+}
+
+.header{
+    margin: 0 auto;
+    width: 100%;
+    height: 76px;
+    background-color: #06151A;
+    border-bottom: 2px solid #0C2533;
+
+}
+
+.header .button1{
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    /*background-color: red;*/
+    background-image: url(../img/button1.png);
+    border: 0px;
+}
+.header .right{
+    height: 50px;
+    margin-top: 15px;
+    background-color: #0C2533;
+}
+.header .right .button2{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/ico.png);
+    border: 1px solid #EED69D;
+}
+.header .right .my{
+    /*position: absolute;*/
+    /*float: left;*/
+}
+.header .right label{
+    margin-left: 30px;
+    margin-top: 2px;
+    color: #D1DBDC;
+}
+.header .right .ico{
+    margin-left: 35px;
+    color: #CAA062;
+}
+.header .right .my1{
+    height: 24px;
+    background: linear-gradient(to right, #007B81 , #004249);
+    border-right: 2px solid #898C8D;
+    border-radius: 4px 0px 0px 4px;
+
+}
+.header .right .my2{
+    height: 24px;
+    background: linear-gradient(to right, #0B2226 , #19393E);
+    border-radius: 0px 4px 4px 0px;
+}
+.header .right .my3{
+    height: 24px;
+    cursor:pointer;
+    background: linear-gradient(#AC5812 , #B45800);
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #FFCC93;
+}
+.header .right .my4{
+    height: 24px;
+    cursor:pointer;
+    background: linear-gradient(#184A54 , #111821);
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid #FFCC93;
+}
+.header .right .my5{
+    height: 24px;
+    cursor:pointer;
+    background: linear-gradient(#184A54 , #111821);
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #FFCC93;
+}
+
+.header .ico2{
+    color: #CAA062;
+    margin-left: 30px;
+}
+.header .ico2 .true{
+    padding: 3px 3px 3px 3px;
+    cursor:pointer;
+    border: 2px solid #002832;
+}
+.header .ico2 .false{
+    padding: 3px 3px 3px 3px;
+    cursor:pointer;
+    border: 2px solid #002832;
+}
+
+.bodyer{
+    width: 100%;
+    height: 690px;
+    /*border: 2px solid red;*/
+}
+.bodyLeft{
+    position: relative;
+    width: 960px;
+    height: 690px;
+    float: left;
+}
+.body1{
+    margin-top: 10px;
+    width: 100%;
+    height: 140px;
+    /*border: 2px solid #1F5555;*/
+}
+.body1 .body1_1{
+    cursor:pointer;
+    margin-left: 2px;
+    width: 19%;
+    height: 140px;
+    float: left;
+    /*border: 2px solid #1F5555;*/
+}
+.body1 .body1_2{
+    cursor:pointer;
+    margin-left: 11px;
+    width: 19%;
+    height: 140px;
+    float: left;
+    /*border: 2px solid #1F5555;*/
+}
+.body1_1 .text{
+    margin-top: 20px;
+    color: #175869;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #7AFFFC;
+}
+.body1_2 .text{
+    margin-top:20px;
+    color: #175869;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #7AFFFC;
+}
+.body1_1 .button{
+    margin-top:10px;
+    width:100%;
+    height: 80px;
+    border: 5px solid #A67947;
+    box-shadow: 2px 2px 2px #D8B997;
+    background: linear-gradient(#0A1C26 30%,#0A1C26, #19ACBE);
+}
+
+.body1_2 .button{
+    margin-top:10px;
+    width:100%;
+    height: 80px;
+    border: 5px solid #A67947;
+    box-shadow: 2px 2px 2px #D8B997;
+    background: linear-gradient(#0A1C26 30%,#0A1C26, #19ACBE);
+}
+#animate1  .buttonLoge{
+    position: absolute;
+    margin-top: 15px;
+    left: 30px;
+    color: #7AFFFC;
+    font-size: 30px;
+}
+#animate2 .buttonLoge{
+    position: absolute;
+    margin-top: 15px;
+    left: 220px;
+    color: #7AFFFC;
+    font-size: 30px;
+}
+#animate3 .buttonLoge{
+    position: absolute;
+    margin-top: 15px;
+    left: 410px;
+    color: #7AFFFC;
+    font-size: 30px;
+}
+#animate4 .buttonLoge{
+    position: absolute;
+    margin-top: 15px;
+    left: 600px;
+    color: #7AFFFC;
+    font-size: 30px;
+}
+#animate5 .buttonLoge{
+    position: absolute;
+    margin-top: 15px;
+    left: 800px;
+    color: #7AFFFC;
+    font-size: 30px;
+}
+.button .text1{
+    position: absolute;
+    /*margin-top: 15px;*/
+    top: 85px;
+    margin-left: 60px;
+    color: #7AFFFC;
+}
+#animate1 .text2{
+    position: absolute;
+    margin-top: 35px;
+    left: 70px;
+    font-size: 10px;
+    color: #279496;
+}
+#animate2 .text2{
+    position: absolute;
+    margin-top: 35px;
+    left: 260px;
+    font-size: 10px;
+    color: #279496;
+}
+#animate3 .text2{
+    position: absolute;
+    margin-top: 35px;
+    left: 455px;
+    font-size: 10px;
+    color: #279496;
+}
+#animate4 .text2{
+    position: absolute;
+    margin-top: 35px;
+    left: 645px;
+    font-size: 10px;
+    color: #279496;
+}
+#animate5 .text2{
+    position: absolute;
+    margin-top: 35px;
+    left: 845px;
+    font-size: 10px;
+    color: #279496;
+}
+
+.body1 label{
+    margin-left: 20px;
+    color: #175869;
+}
+.body2{
+    margin-top: 10px;
+    width: 100%;
+    height: 270px;
+    /*border: 2px solid #1F5555;*/
+}
+.body2_1{
+    margin-left: 10px;
+    width: 570px;
+    height: 270px;
+    float: left;
+    /*border: 2px solid #1F5555;*/
+}
+.body2_1 .myTab{
+    height: 227px;
+}
+.body2_1 .tab-pane{
+    overflow: hidden;
+}
+.body2_1 .nav-tabs {
+     border-bottom: 0px solid #ddd; 
+}
+.body2_1 ul li{
+    font-size: 16px;
+    width: 20%;
+    text-align: center;
+    color: #76C0CA;
+    text-shadow:  1px #76C0CA;
+}
+
+.body2_1  .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    text-align: center;
+    color: #FFFFD7;
+    background-color: #07414E;
+    border: 0px solid #ddd;
+}
+.body2_2{
+    margin-left: 20px;
+    width: 360px;
+    height: 270px;
+    float: left;
+    /*border: 2px solid #1F5555;*/
+}
+.body2_2 .myTab{
+    height: 227px;
+}
+.body2_2 .tab-pane{
+    overflow: hidden;
+}
+.body2_2 .nav-tabs {
+     border-bottom: 0px solid #ddd; 
+     background: linear-gradient(#000002, #062635 50%, #062635);
+}
+.body2_2 ul li{
+    width: 24%;
+    text-align: center;
+    color: #5BB8CC;
+    font-size: 18px;
+}
+
+.body2_2  .nav-tabs>li.active>a,.body2_2 .nav-tabs>li.active>a:hover,.body2_2 .nav-tabs>li.active>a:focus {
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(#000002, #062635 50%, #062635);
+    border: 0px solid #ddd;
+    text-shadow: 0px 2px 1px #ffffff;
+    box-shadow: 0px 2px 0px 0px #1DD6E4;
+}
+.body2_2 .title{
+    padding-top: 10px;
+    height: 40px;
+    background: linear-gradient(#030D0E, #0F4349 50%,#030D0E);
+    text-align: center;
+    text-shadow: 1px 1px 1px #ffffff;
+    color: #FFFFFF;
+}
+.body2_2 .context{
+    margin-top: 10px;
+}
+.body2_2 .context ul{
+    margin-left: -35px;
+}
+.body2_2 .context ul li{
+    list-style-type:none; 
+    margin-top: 5px;
+    width: 100%;
+    text-align: left;
+    color: #76C0CA;
+    background: linear-gradient(#000002, #030910);
+    border-bottom: 2px solid #0D1F32;
+}
+.body2_2 .context ul li:first-child{
+    border-top: 2px solid #0D1F32;
+}
+.body3{
+    margin-top: 0px;
+    width: 100%;
+    height: 240px;
+    /*border: 2px solid #1F5555;*/
+}
+.body3_1{
+    margin-left: 10px;
+    width: 160px;
+    height: 240px;
+    float: left;
+    /*border: 2px solid #1F5555;*/
+}
+.body3_1 .buttonGroup{
+    margin-top: 15px;
+}
+.body3_1 .bodyButton{
+    margin: 0 auto;
+    margin-top: 8px;
+    padding-top: 5px;
+    font-size: 16px;
+    width: 80%;
+    height: 35px;
+    background-color: #0D2B31;
+    text-align: center;
+    color: #76C0CA;
+    text-shadow: 1px 1px  #ffffff;
+    box-shadow: 2px 2px 0px 0px #137B79;
+    border-radius: 3px 3px 3px 3px;
+}
+.body3_2{
+    margin-left: 16px;
+    padding-top: 20px;
+    width: 400px;
+    height: 240px;
+    float: left;
+    /*border: 2px solid #1F5555;*/
+}
+
+.body3_2 .title{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to right, #19ACBE , #0A1C26);
+}
+.body3_2 .title .text{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-size: 18px;
+    color: #F4FFFA;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+.body3_2 .picGroup1{
+    margin-top: 10px;
+}
+.body3_2 .picGroup2{
+    position: absolute;
+    margin-top: 80px;
+}
+.body3_2 .pic1{
+    float: left;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+.body3_2 .pic2{
+    margin-left: 5px;
+    float: left;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+.body3_3{
+    margin-left: 10px;
+    padding-top: 23px;
+    width: 360px;
+    height: 240px;
+    float: left;
+    /*border: 2px solid #1F5555;*/
+}
+.body3_3 li{
+    background-color: black;
+}
+.body3_3 .carousel-indicators .active{
+    background-color: red;
+}
+.bodyRight{
+    position: relative;
+    float: right;
+    height: 690px;
+    width: 290px;
+    margin-right: 10px;
+    /*margin-top: 10px;*/
+    /*border: 2px solid #1F5555;*/
+}
+.body4{
+    margin-top: 10px;
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    /*border: 2px solid #1F5555;*/
+}
+.body4 .point{
+    margin-left: 20px;
+}
+.body4 li{
+    background-color: blue;
+}
+.body4 .carousel-indicators .active{
+    background-color: red;
+}
+.body5{
+    margin-top: 15px;
+    width: 100%;
+    height: 270px;
+    /*border: 2px solid #1F5555;*/
+}
+.body5_1{
+    width: 100%;
+    height: 130px;
+    /*border: 2px solid #1F5555;*/
+    overflow: hidden;
+}
+.body5_1 .carousel-caption{
+    color: #FFFD01;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+.body5_1 .carButtonGroup{
+    position: relative;
+    margin-top: -75px;
+}
+.body5_1 .carButton{
+    width: 10px;
+    height: 10px;
+    background-color: #646465;
+}
+
+.body5_2{
+    margin-top: 17px;
+    width: 130px;
+    height: 130px;
+    float: left;
+    border: 2px solid #1F5555;
+}
+.body5_2 .text{
+    text-align: center;
+    color: #03F4FD;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+.body5_3{
+    margin-top: 17px;
+    margin-left: 17px;
+    width: 130px;
+    height: 130px;
+    float: left;
+    border: 2px solid #1F5555;
+}
+.body5_3 .text{
+    text-align: center;
+    color: #03F4FD;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+.body6{
+    margin-top: 15px;
+    width: 100%;
+    height: 240px;
+    /*border: 2px solid #1F5555;*/
+}
+.body6 .title{
+    margin-top: 40px;
+    padding-top: 10px;
+    height: 40px;
+    background: linear-gradient(#030D0E, #0F4349 50%,#030D0E);
+    text-align: center;
+    text-shadow: 1px 1px 1px #ffffff;
+    color: #FFFFFF;
+}
+.body6 .context{
+    margin-top: 10px;
+}
+.body6 .context ul{
+    margin-left: -35px;
+}
+.body6 .context ul li{
+    list-style-type:none; 
+    margin-top: 5px;
+    width: 100%;
+    text-align: left;
+    color: #76C0CA;
+    background: linear-gradient(#000002, #030910);
+    border-bottom: 2px solid #0D1F32;
+}
+.body6 .context ul li:first-child{
+    border-top: 2px solid #0D1F32;
+}
+.between1 {
+    margin-top: 3px;
+    border-top: 7px solid #183732;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    width: 960px;
+}
+.between2 {
+    margin-top: 8px;
+    border-bottom: 7px solid #183732;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    width: 960px;
+}
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #003548;
+    /*border-bottom: 1px solid #003548;*/
+}
+.footer .buttonGroup{
+    margin-right: 5px;
+}
+.footer .buttonOff{
+    float: right;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 30px;
+    height: 24px;
+    border: 1px solid #1D4554;
+    background: linear-gradient(#183640, #0B1A1F);
+
+    text-align: center;
+    color: #D3B580;
+}
+.footer .buttonFo{
+    float: right;
+    margin-top: 3px;
+    margin-left: 6px;
+    width: 80px;
+    height: 24px;
+    border: 1px solid #1D4554;
+    background: linear-gradient(#183640, #0B1A1F);
+
+    text-align: center;
+    color: #D3B580;
+}
