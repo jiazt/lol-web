@@ -1,5 +1,6 @@
 body{
     background-color: #000000;
+    overflow: hidden;
 }
 .main{
     position: absolute;
@@ -100,10 +101,30 @@ body{
     cursor:pointer;
     border: 2px solid #002832;
 }
+#style-5::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #2C6CA6;
+	background-color: black;
+}
 
+#style-5::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: black;
+}
+
+#style-5::-webkit-scrollbar-thumb
+{
+	background-color: #2C6CA6;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, #2C6CA6),
+					   color-stop(.5, transparent), to(transparent));
+}
 .bodyer{
     width: 100%;
     height: 690px;
+    overflow-y: scroll;
     /*border: 2px solid red;*/
 }
 .bodyLeft{
@@ -338,6 +359,10 @@ body{
     background: linear-gradient(#000002, #030910);
     border-bottom: 2px solid #0D1F32;
 }
+.body2_2 .context ul li:hover{
+    color: #8CF6FF;
+    text-decoration: underline;
+}
 .body2_2 .context ul li:first-child{
     border-top: 2px solid #0D1F32;
 }
@@ -367,9 +392,12 @@ body{
     background-color: #0D2B31;
     text-align: center;
     color: #76C0CA;
-    text-shadow: 1px 1px  #ffffff;
+    text-shadow: 1px  #ffffff;
     box-shadow: 2px 2px 0px 0px #137B79;
     border-radius: 3px 3px 3px 3px;
+}
+.body3_1 .bodyButton:hover{
+    color: #B5F6FF;
 }
 .body3_2{
     margin-left: 16px;
@@ -405,12 +433,34 @@ body{
     height: 75px;
     overflow: hidden;
 }
+.body3_2 .focus{
+    display: none;
+    position: absolute;
+    margin-top: -75px;
+    padding-top: 10px;
+    background-color: #0C4556;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #ffffff;
+    font-size: 15px;
+    text-align: center;
+    width: 75px;
+    height: 76px;
+    z-index: 20;
+    opacity: 0.9;
+}
+
+.body3_2 .pic1:hover .focus{
+    display: block;
+}
 .body3_2 .pic2{
     margin-left: 5px;
     float: left;
     width: 75px;
     height: 75px;
     overflow: hidden;
+}
+.body3_2 .pic2:hover .focus{
+    display: block;
 }
 .body3_3{
     margin-left: 10px;
@@ -538,6 +588,10 @@ body{
 .body6 .context ul li:first-child{
     border-top: 2px solid #0D1F32;
 }
+.body6 .context ul li:hover{
+    color: #8CF6FF;
+    text-decoration: underline;
+}
 .between1 {
     margin-top: 3px;
     border-top: 7px solid #183732;
@@ -553,14 +607,14 @@ body{
     width: 960px;
 }
 .footer{
-    margin-top: 30px;
+    margin-top: 0px;
     width: 100%;
     height: 30px;
     border-top: 1px solid #003548;
     /*border-bottom: 1px solid #003548;*/
 }
 .footer .buttonGroup{
-    margin-right: 5px;
+    margin-right: 0px;
 }
 .footer .buttonOff{
     float: right;
@@ -582,7 +636,7 @@ body{
     height: 24px;
     border: 1px solid #1D4554;
     background: linear-gradient(#183640, #0B1A1F);
-
     text-align: center;
     color: #D3B580;
 }
+
