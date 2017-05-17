@@ -6,6 +6,8 @@
 
 ![image](https://github.com/jztysm/lol-web/blob/master/lol/pic/my1.png)
 
+## 配色和细节真的达不到需要专门的美工，最近毕设论文后面补上。
+
 ## Build Setup
 
 ``` bash
